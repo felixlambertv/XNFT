@@ -43,6 +43,14 @@ Deployed here https://sepolia.etherscan.io/address/0x6bB7fED4bFF9f9ED211DD02Ed97
   npm run start
 ```
 
+## Testing
+
+You can run tests with:
+
+```shell
+  npm run test
+```
+
 ### Custom Tasks (For easier testing all task transaction made by admin account)
 
 - **Mint NFT:**
@@ -108,3 +116,5 @@ If we didnt passing `--deployment-id` than hardhat ignition will create based on
 - Set the token URI for your NFTs and store the assets on IPFS.
 - Move the whitelist minting functionality to a separate contract for better modularity.
 - For `whitelistMint` no need to pass address param, so only the user can mint their own whitelist NFT.
+
+## Testing
