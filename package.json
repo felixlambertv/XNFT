@@ -1,7 +1,18 @@
 {
   "name": "hardhat-project",
+  "scripts": {
+    "build": "npx hardhat compile",
+    "clean": "npx hardhat clean",
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat ignition deploy",
+    "start": "npx hardhat node",
+    "coverage": "npx hardhat coverage",
+    "setVars" : "npx hardhat vars set"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "@openzeppelin/merkle-tree": "github:OpenZeppelin/merkle-tree",
     "hardhat": "^2.22.6"
   }
 }
